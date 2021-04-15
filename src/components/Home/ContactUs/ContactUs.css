@@ -1,0 +1,15 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 0px !important;
+    margin-left: -15px;
+  }
+  .btn-brand{
+    background-image: linear-gradient(75deg, #19D3AE,#0fcfec);
+    border-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  .text-brand{
+    color: #1cc7c1;
+  }
