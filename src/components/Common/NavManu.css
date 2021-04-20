@@ -1,0 +1,9 @@
+.nav-manu {
+   background-color: var(--white-color);
+   box-shadow: var(--shadow-dark);
+}
+.navbar-brand img {
+   height: 55px !important;
+   width: 128px !important;
+   border-radius: 10px !important;
+}
