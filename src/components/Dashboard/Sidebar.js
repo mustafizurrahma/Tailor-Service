@@ -35,7 +35,7 @@ const Sidebar = () => {
 
    return (
       <ul className="sidebar pt-9">
-         {! isAdmin ? (
+         {isAdmin ? (
             <>
                <li>
                   <NavLink
