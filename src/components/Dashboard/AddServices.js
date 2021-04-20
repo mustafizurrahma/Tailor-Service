@@ -29,7 +29,7 @@ const AddServices = () => {
       };
 
       axios
-         .post('http://localhost:8000/addServices', servicesData)
+         .post('https://shrouded-river-68219.herokuapp.com/addServices', servicesData)
          .then(() => {
             setAlertShow(true);
             setAlertErrShow(false);

@@ -30,7 +30,7 @@ const Review = () => {
       };
 
       axios
-         .post('http://localhost:8000/addReviews', userInfo)
+         .post('https://shrouded-river-68219.herokuapp.com/addReviews', userInfo)
          .then(() => {
             setAlertShow(true);
          })

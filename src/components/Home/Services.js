@@ -8,7 +8,7 @@ const Services = () => {
 
    useEffect(() => {
       axios
-         .get('http://localhost:8000/services')
+         .get('https://shrouded-river-68219.herokuapp.com/services')
          .then((res) => {
             setServices(res.data);
          })

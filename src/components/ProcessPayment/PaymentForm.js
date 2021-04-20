@@ -20,7 +20,7 @@ const PaymentForm = ({ id }) => {
    useEffect(() => {
       setLoading(true);
       axios
-         .get('http://localhost:8000/services')
+         .get('https://shrouded-river-68219.herokuapp.com/services')
          .then((res) => {
             setLoading(false);
             setServices(res.data);
@@ -64,7 +64,7 @@ const PaymentForm = ({ id }) => {
          };
 
          axios
-            .post('http://localhost:8000/addBooking', serviceBooking)
+            .post('https://shrouded-river-68219.herokuapp.com/addBooking', serviceBooking)
             .then(() => {
                setAlertShow(true);
                setAlertErrShow(false);

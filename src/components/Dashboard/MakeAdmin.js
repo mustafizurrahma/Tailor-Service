@@ -21,7 +21,7 @@ const MakeAdmin = () => {
       };
 
       axios
-         .post('http://localhost:8000/addAdmin', adminEmail)
+         .post('https://shrouded-river-68219.herokuapp.com/addAdmin', adminEmail)
          .then(() => {
             setAlertShow(true);
             setAlertErrShow(false);

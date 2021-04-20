@@ -11,7 +11,7 @@ const BookingList = () => {
 
    useEffect(() => {
       axios
-         .get(`http://localhost:8000/bookings?email=${loggend.email}`)
+         .get(`https://shrouded-river-68219.herokuapp.com/bookings?email=${loggend.email}`)
          .then((res) => {
             setBookings(res.data);
          })

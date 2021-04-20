@@ -21,7 +21,7 @@ const Sidebar = () => {
    useEffect(() => {
       setLoading(true);
       axios
-         .get(`http://localhost:8000/admin?email=${loggend.email}`)
+         .get(`https://shrouded-river-68219.herokuapp.com/admin?email=${loggend.email}`)
          .then((res) => {
             setLoading(false);
             setIsAdmin(res.data);

@@ -16,7 +16,7 @@ const OrderItem = ({
    };
 
    axios
-      .patch(`http://localhost:8000/bookingUpdate/${_id}`, { updateValue })
+      .patch(`https://shrouded-river-68219.herokuapp.com/bookingUpdate/${_id}`, { updateValue })
       .then((res) => console.log('Status Updated!'))
       .catch((err) => console.log(err));
 
