@@ -1,6 +1,6 @@
 # Tailor Service
 
-Here is the live [link : Tailor Service](https://tailarservices.web.app/).
+Here is the live [Tailor Service](https://tailarservices.web.app/).
 
 ## How to setup in local desktop
 
